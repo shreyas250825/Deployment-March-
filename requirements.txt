@@ -1,0 +1,18 @@
+# Combined Requirements for Workshop
+# Digit Recognition & Credit App
+
+# GUI
+streamlit
+streamlit-drawable-canvas
+
+# Image Processing
+Pillow
+opencv-python
+
+# Deep Learning
+tensorflow
+
+# Data Science & ML
+numpy
+scikit-learn
+joblib
