@@ -7,7 +7,7 @@ streamlit-drawable-canvas
 
 # Image Processing
 Pillow
-opencv-python
+opencv-python-headless
 
 # Deep Learning
 tensorflow
