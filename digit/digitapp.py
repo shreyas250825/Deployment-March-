@@ -1,3 +1,4 @@
+import os
 import streamlit as st
 import numpy as np
 import tensorflow as tf
@@ -20,7 +21,8 @@ st.title("🧠 MNIST Handwritten Digit Recognizer")
 # Load trained model
 @st.cache_resource
 def load_model():
-    return tf.keras.models.load_model("mnist_model.h5")
+    model_path = os.path.join(os.path.dirname(__file__), "mnist_model.h5")
+    return tf.keras.models.load_model(model_path)
 
 model = load_model()
 
